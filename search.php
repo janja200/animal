@@ -56,7 +56,7 @@
     <?php
     // Assuming you've already established a database connection
     // Connect to the database
-    $db = mysqli_connect("<endpoint>", "<username>","<password>", "animal");
+    $db = mysqli_connect("localhost", "root","", "animal");
 
     // Check if the connection was successful
     if (!$db) {

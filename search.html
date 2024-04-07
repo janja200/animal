@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Animal Records Search</title>
+  <style>
+    /* Add your custom styles here */
+    body {
+      font-family: Arial, sans-serif;
+    }
+    .container {
+      width: 50%;
+      margin: 50px auto;
+    }
+    input[type="text"] {
+      width: 100%;
+      padding: 10px;
+      font-size: 16px;
+      margin-bottom: 20px;
+    }
+    input[type="submit"] {
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .back-button {
+      text-align: center;
+      margin-top: 20px;
+    }
+    .back-button a {
+      text-decoration: none;
+      color: #4CAF50;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Search Animal Records</h2>
+    <form action="search.php" method="GET">
+      <input type="text" name="query" placeholder="Enter animal ID or name">
+      <input type="submit" value="Search">
+    </form>
+    <div class="back-button">
+      <a href="home.html">Back to Home</a>
+    </div>
+  </div>
+</body>
+</html>

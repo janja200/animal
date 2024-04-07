@@ -12,7 +12,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   } else {
 
 // Connect to the database
-$db = mysqli_connect("localhost", "root", "", "animal");
+$db = mysqli_connect("<endpoint>", "<username>","<password>", "animal");
 
     echo "Passwords do not match.";
  

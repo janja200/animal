@@ -1,7 +1,7 @@
 <?php
 
 // Connect to the database
-$db = mysqli_connect("localhost", "root", "", "animal");
+$db = mysqli_connect("<endpoint>", "<username>","<password>", "animal");
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   // Retrieve form data

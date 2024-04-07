@@ -16,7 +16,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   // Validate form data (you may add more validation as needed)
 
   // Connect to the database
-  $db = mysqli_connect("localhost", "root", "", "animal");
+  $db = mysqli_connect("<endpoint>", "<username>","<password>", "animal");
 
   // Check if the connection was successful
   if (!$db) {

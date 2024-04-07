@@ -56,7 +56,13 @@
     <?php
     // Assuming you've already established a database connection
     // Connect to the database
-    $db = mysqli_connect("localhost", "root","", "animal");
+    $servername = "ls-b7c95d02c8ae3e6b35e7999cb2ada5da9fdf691e.cx8ueoy08f2q.ap-south-1.rds.amazonaws.com";
+    $username = "root";
+    $password = "password";
+    $database = "animal"; // Replace 'your_database_name' with your actual database name
+
+    // Create connection
+    $db = new mysqli($servername, $username, $password, $database);
 
     // Check if the connection was successful
     if (!$db) {

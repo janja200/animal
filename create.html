@@ -17,6 +17,12 @@
       font-size: 16px;
       margin-bottom: 20px;
     }
+    input[type="date"], select {
+      width: 100%;
+      padding: 10px;
+      font-size: 16px;
+      margin-bottom: 20px;
+    }
     input[type="submit"] {
       padding: 10px 20px;
       font-size: 16px;
@@ -52,7 +58,7 @@
       <input type="text" name="size" placeholder="Size of Animal" required>
       <input type="text" name="place_found" placeholder="Place Found" required>
       <input type="text" name="condition" placeholder="Condition" required>
-      <input type="text" name="admission_time" placeholder="Admission Time" required>
+      <input type="date" name="admission_time" placeholder="Admission Time" required>
       <input type="text" name="treatment" placeholder="Treatment" required>
       <input type="submit" value="Create Record">
     </form>
